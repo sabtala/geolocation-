@@ -1,6 +1,5 @@
 pipeline{
-    agent{
-        agent any
+    agent any{
         tools {
             maven 'M2_HOME'
         }
