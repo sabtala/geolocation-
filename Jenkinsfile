@@ -29,8 +29,8 @@ pipeline{
                           version: "${mavenPom.version}"
                 }
             }
-            }
         }
     }
+    
 
 }
