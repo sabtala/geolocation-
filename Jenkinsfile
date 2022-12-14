@@ -1,9 +1,9 @@
 pipeline{
-    agent 'any'{
-        tools {
+    agent any
+    tools {
             maven 'M2_HOME'
-        }
     }
+    
     stages{
         stage("maven build"){
             steps{
